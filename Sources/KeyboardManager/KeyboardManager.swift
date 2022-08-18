@@ -70,7 +70,7 @@ open class KeyboardManager: NSObject, UIGestureRecognizerDelegate {
 
     /// A cached notification used as a starting point when a user dragging the `scrollView` down
     /// to interactively dismiss the keyboard
-    private(set) var cachedNotification: KeyboardNotification?
+    private(set) public var cachedNotification: KeyboardNotification?
 
     // MARK: - Initialization
 
